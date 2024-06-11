@@ -1,4 +1,4 @@
-package Challange;
+package Challange1;
 
 public class Ghita {
 

@@ -1,4 +1,4 @@
-package Challange.Input;
+package Challange1;
 
 import java.util.Scanner;
 
