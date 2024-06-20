@@ -68,7 +68,7 @@ public class SwitchStatements {
         }
     }
 
-    private static void printGrade(char grade) {
+    public static void printGrade(char grade) {
         switch (grade) {
             case 'A':
                 System.out.println("Excellent!");
