@@ -12,8 +12,7 @@ public class Challenge_6 {
         int secondNumber = sc.nextInt();
         if (firstNumber > secondNumber) {
             System.out.println(firstNumber + " is greater than " + secondNumber);
-        }
-        else if (firstNumber < secondNumber) {
+        } else if (firstNumber < secondNumber) {
             System.out.println(firstNumber + " is less than " + secondNumber);
         } else if (firstNumber == secondNumber) {
             System.out.println(firstNumber + " is equal to " + secondNumber);

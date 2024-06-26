@@ -10,8 +10,8 @@ public class Challenge_9 {
         double length = sc.nextDouble();
         System.out.println("Enter the second number : ");
         double breadth = sc.nextDouble();
-        double area = length*breadth;
-        System.out.println("The area of the rectangle is : "+area);
+        double area = length * breadth;
+        System.out.println("The area of the rectangle is : " + area);
         sc.close();
     }
 }

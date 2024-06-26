@@ -12,13 +12,16 @@ public class Challenge_11 {
             double number = sc.nextDouble();
             if (number == 0) {
                 break;
-            } sum += number;
-             count++;
-        }if (count > 0) {
+            }
+            sum += number;
+            count++;
+        }
+        if (count > 0) {
             double average = sum / count;
             System.out.println("Average is " + average);
-        }else {
+        } else {
             System.out.println("No matches found");
+            sc.close();
         }
     }
 }

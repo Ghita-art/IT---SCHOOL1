@@ -8,8 +8,8 @@ public class Challenge_7 {
         int sideOne = 10;
         int sideTwo = 10;
         int sideThree = 30;
-        String tiangleType = (sideOne == sideTwo && sideTwo == sideThree) ? "Equilateral":
-                             ( sideOne == sideTwo|| sideTwo == sideThree || sideOne == sideThree) ? "Isosceles" : "Scalene";
+        String tiangleType = (sideOne == sideTwo && sideTwo == sideThree) ? "Equilateral" :
+                (sideOne == sideTwo || sideTwo == sideThree || sideOne == sideThree) ? "Isosceles" : "Scalene";
         System.out.println("Triangle Type: " + tiangleType);
     }
 }

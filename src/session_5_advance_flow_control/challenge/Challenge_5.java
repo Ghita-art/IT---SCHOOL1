@@ -12,7 +12,8 @@ public class Challenge_5 { //Write a program that generates and prints the first
         printFibonacci(n);
         sc.close();
     }
-public static void printFibonacci(int n) {
+
+    public static void printFibonacci(int n) {
         int nextNo;
         if (n <= 0) {
             System.out.println("Invalid number, please enter a positive number");
@@ -20,10 +21,10 @@ public static void printFibonacci(int n) {
             System.out.println(1);
         } else if (n == 2) {
             System.out.println(1 + "" + 1);
-        }else {
+        } else {
             int firstNo = 1;
             int secondNo = 0;
-            System.out.println(firstNo + "" + secondNo+"");
+            System.out.println(firstNo + "" + secondNo + "");
             for (int i = 3; i <= n; ++i) {
                 nextNo = firstNo + secondNo;
                 firstNo = nextNo;
@@ -32,7 +33,8 @@ public static void printFibonacci(int n) {
             }
         }
 
-        }
+    }
+
     {
-}
+    }
 }

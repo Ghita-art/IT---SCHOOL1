@@ -6,9 +6,10 @@ public class Challenge_1 {
         // Check and print whether they refer to the same object.
         String stringOne = "OpenAi";
         String stringTwo = "OpenAi";
-       if (stringOne == stringTwo) {
-           System.out.println("stringOne and stringtwo refer to the same object");
-       } else { System.out.println("stringOne and stringtwo refer to a different object");
+        if (stringOne == stringTwo) {
+            System.out.println("stringOne and stringtwo refer to the same object");
+        } else {
+            System.out.println("stringOne and stringtwo refer to a different object");
         }
     }
 }

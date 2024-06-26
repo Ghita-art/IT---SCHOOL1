@@ -21,17 +21,18 @@ public class Challenge_10 {
                 case 1:
                     System.out.println("Hello World!");
                     break;
-                    case 2:
-                        System.out.println("Enter your name: ");
-                        name = sc.next();
-                        sc.nextLine();
-                        System.out.println("Hello " + name + "!");
-                        break;
-                        case 3:
-                            System.out.println("Exiting program...");
-                            System.exit(0);
-                        default:
-                            System.out.println("Invalid choice!");
+                case 2:
+                    System.out.println("Enter your name: ");
+                    name = sc.next();
+                    sc.nextLine();
+                    System.out.println("Hello " + name + "!");
+                    break;
+                case 3:
+                    System.out.println("Exiting program...");
+                    System.exit(0);
+                default:
+                    System.out.println("Invalid choice!");
+                    sc.close();
             }
         }
     }

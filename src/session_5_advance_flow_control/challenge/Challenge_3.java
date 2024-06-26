@@ -10,9 +10,10 @@ public class Challenge_3 {
         for (int number : numbers) {
             if (number < 0) {
                 negativeCount++;
+                sc.close();
             }
         }
         System.out.println("Negative integers: " + negativeCount);
-        }
     }
+}
 

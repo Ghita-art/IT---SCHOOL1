@@ -10,7 +10,7 @@ public class Extra_Challenge_2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter the temperature in Celsius");
         double Celsius = sc.nextDouble();
-        double Fahrenheit = (Celsius * 9/5) + 32;
+        double Fahrenheit = (Celsius * 9 / 5) + 32;
         System.out.println("The temperature in Fahrenheit is: " + Fahrenheit);
     }
 }

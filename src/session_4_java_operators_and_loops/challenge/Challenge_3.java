@@ -7,7 +7,7 @@ public class Challenge_3 {
         int age = 20;
         if (age >= 18) {
             System.out.println("I am an adult!");
-        }else if (age < 18) {
+        } else if (age < 18) {
             System.out.println("I am not an adult!");
         }
     }

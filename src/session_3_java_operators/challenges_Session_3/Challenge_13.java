@@ -10,7 +10,7 @@ public class Challenge_13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please, enter the price: ");
-       double price = sc.nextDouble();
+        double price = sc.nextDouble();
         System.out.println("Please, enter de discount: ");
         double discount = sc.nextDouble();
         double myPriceAfterDiscount = price - ((price * discount) / 100);

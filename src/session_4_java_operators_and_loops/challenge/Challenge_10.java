@@ -15,7 +15,7 @@ public class Challenge_10 { // Write a Java program that creates two distinct Ar
         listOne.add("five");
         listTwo.addAll(listOne);
         listOne.add("six");
-        System.out.println("The numbers of the first list are: "+ listOne.size());
-        System.out.println("The numbers of the second list are: "+ listTwo.size());
+        System.out.println("The numbers of the first list are: " + listOne.size());
+        System.out.println("The numbers of the second list are: " + listTwo.size());
     }
 }

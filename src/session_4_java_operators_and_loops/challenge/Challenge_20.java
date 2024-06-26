@@ -3,6 +3,7 @@ package session_4_java_operators_and_loops.challenge;
 import java.util.Scanner;
 
 public class Challenge_20 {//Write a Java program that takes three integer variables a, b, and c as input.
+
     // Use nested ternary operators to find and print the largest number among the three.
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

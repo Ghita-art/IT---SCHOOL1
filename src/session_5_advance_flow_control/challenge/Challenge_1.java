@@ -13,6 +13,7 @@ public class Challenge_1 { //Write a Java program that takes an integer as input
             System.out.println("The number is even.");
         } else {
             System.out.println("The number is odd.");
+            sc.close();
         }
     }
 }

@@ -14,7 +14,7 @@ public class Extra_Challenge_8 {
         double secondPrice = sc.nextDouble();
         if (firstPrice < secondPrice) {
             System.out.println("The first product price is less than the second product");
-        } else if ( secondPrice < firstPrice) {
+        } else if (secondPrice < firstPrice) {
             System.out.println("The second product price is less than the first product");
         } else {
             System.out.println("The first product price is equal to the second product");

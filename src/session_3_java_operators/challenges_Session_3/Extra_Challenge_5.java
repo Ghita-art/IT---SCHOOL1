@@ -13,8 +13,8 @@ public class Extra_Challenge_5 {
         double bill = sc.nextDouble();
         System.out.println("Enter the percent discount:");
         double percent = sc.nextDouble();
-        double total = bill - (bill * percent /100 );
-        System.out.println("Your grocery bill after discount:"+ total);
+        double total = bill - (bill * percent / 100);
+        System.out.println("Your grocery bill after discount:" + total);
         sc.close();
     }
 }

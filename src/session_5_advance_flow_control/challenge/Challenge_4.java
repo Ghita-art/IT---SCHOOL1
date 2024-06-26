@@ -7,9 +7,9 @@ public class Challenge_4 {
     //Ask the user to enter a string. Print the reversed version of this string
 
     public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter your string : ");
-    String text = sc.nextLine();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your string : ");
+        String text = sc.nextLine();
         String originalStr = text;
         String reversedStr = "";
         System.out.println("Original String: " + originalStr);

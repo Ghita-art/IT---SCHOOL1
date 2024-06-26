@@ -10,8 +10,8 @@ public class Challenge_6 {
         if (temperature > 30) {
             System.out.println("Hot");
         } else if (temperature >= 20) {
-            System.out.println("Warm");}
-        else{
+            System.out.println("Warm");
+        } else {
             System.out.println("Cold");
         }
     }

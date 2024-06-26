@@ -13,8 +13,11 @@ public class Challenge_6 { // Write a program that asks the user to enter number
         while (n != -1) {
             sum += n;
             System.out.println("Enter another number: ");
+            System.out.println("Type in (-1) if you want to exit: ");
             n = sc.nextInt();
+
         }
         System.out.println("The sum is: " + sum);
+        sc.close();
     }
 }
