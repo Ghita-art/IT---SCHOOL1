@@ -1,6 +1,7 @@
 package session_9_arrays.challenges;
 
 import java.util.LinkedList;
+import java.util.Scanner;
 
 public class Challenge_6 {
     public static void main(String[] args) {
@@ -10,7 +11,14 @@ public class Challenge_6 {
         studentList.add("Bob");
         studentList.add("Mary");
         studentList.add("Jack");
-        String studentToRemove = studentList.removeFirst();
+        System.out.println("Students list ");
+        for (String student : studentList) {
+            System.out.println(student);
+        }
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the student you want to remove: ");
+        String studentToRemove = scanner.nextLine();
         boolean remove = studentList.remove(studentToRemove);
         if (remove) {
             System.out.println("Student " + studentToRemove + " removed");

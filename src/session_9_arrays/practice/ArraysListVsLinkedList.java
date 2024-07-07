@@ -14,7 +14,7 @@ public class ArraysListVsLinkedList {
             linkedList.add(String.valueOf(index));
         }
 
-        //check if LinkedList is faster for add method
+
         long startTimerArrayList = System.currentTimeMillis();
         for (int index = 0; index < 100000; index++) {
             arrayList.add(0, String.valueOf(index));
