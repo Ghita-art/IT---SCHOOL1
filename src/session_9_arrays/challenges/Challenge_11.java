@@ -66,4 +66,3 @@ public class Challenge_11 {
         }
     }
 }
-
