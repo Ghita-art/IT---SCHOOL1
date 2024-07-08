@@ -21,10 +21,11 @@ public class Challenge_6 {
         String studentToRemove = scanner.nextLine();
         boolean remove = studentList.remove(studentToRemove);
         if (remove) {
-            System.out.println("Student " + studentToRemove + " removed");
+            System.out.println("Student " + studentToRemove + " was removed");
             System.out.println("Updated list" + studentList);
         } else {
             System.out.println("Student " + studentToRemove + " not in the list");
+            scanner.close();
         }
     }
 }
