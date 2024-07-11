@@ -1,4 +1,4 @@
-package session_10_oop_concepts.bank_account.bank_account.static_keyword;
+package session_10_oop_concepts.static_keyword;
 
 public class User {
     private String firstName;

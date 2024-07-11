@@ -1,4 +1,4 @@
-package session_10_oop_concepts.bank_account.bank_account.bank_account;
+package session_10_oop_concepts.bank_account;
 
 public class BankAccount {
     private String accountNumber;

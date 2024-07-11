@@ -1,6 +1,6 @@
 package kata.session_3;
 
-import session_10_oop_concepts.bank_account.bank_account.bank_account.Address;
+import session_10_oop_concepts.bank_account.Address;
 
 public class Member {
 
