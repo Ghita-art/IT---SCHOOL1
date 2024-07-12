@@ -1,11 +1,12 @@
-package session_10_oop_concepts.bank_account;
+package session_10_oop_concepts.challenges.challenge_1;
 
 public class Address {
     private String street;
-    private int number;
-    private String postalCode;
+    private String number;
+    private String block;
     private String city;
     private String country;
+    private String postalCode;
 
     public String getStreet() {
         return street;
@@ -15,20 +16,20 @@ public class Address {
         this.street = street;
     }
 
-    public int getNumber() {
+    public String getNumber() {
         return number;
     }
 
-    public void setNumber(int number) {
+    public void setNumber(String number) {
         this.number = number;
     }
 
-    public String getPostalCode() {
-        return postalCode;
+    public String getBlock() {
+        return block;
     }
 
-    public void setPostalCode(String postalCode) {
-        this.postalCode = postalCode;
+    public void setBlock(String block) {
+        this.block = block;
     }
 
     public String getCity() {
@@ -46,5 +47,12 @@ public class Address {
     public void setCountry(String country) {
         this.country = country;
     }
-}
 
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
+    }
+}

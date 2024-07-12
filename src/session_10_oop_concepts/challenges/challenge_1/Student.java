@@ -1,16 +1,15 @@
-package session_10_oop_concepts.challenge_1;
+package session_10_oop_concepts.challenges.challenge_1;
 
-import session_10_oop_concepts.bank_account.Address;
+import session_10_oop_concepts.practice.bank_account.Address;
 
-import java.time.LocalDate;
-
-public class Professor {
+public class Student {
     private String firstName;
     private String secondName;
     private String gender;
-    private LocalDate dateOfBirth;
+    private String dateOfBirth;
     private String PIN;
     private Address address;
+    private int age;
 
     public String getFirstName() {
         return firstName;
@@ -36,11 +35,11 @@ public class Professor {
         this.gender = gender;
     }
 
-    public LocalDate getDateOfBirth() {
+    public String getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(LocalDate dateOfBirth) {
+    public void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
@@ -58,5 +57,23 @@ public class Professor {
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Student() {
+        this.firstName = getFirstName();
+        this.secondName = getSecondName();
+        this.age = getAge();
+        this.gender = getGender();
+        this.dateOfBirth = getDateOfBirth();
+        this.PIN = getPIN();
+
     }
 }

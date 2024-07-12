@@ -1,4 +1,4 @@
-package session_10_oop_concepts.sensitive_logic_package;
+package session_10_oop_concepts.practice.sensitive_logic_package;
 
 public class Animal {
     String name;

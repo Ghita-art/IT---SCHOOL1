@@ -1,4 +1,4 @@
-package session_10_oop_concepts.static_keyword;
+package session_10_oop_concepts.practice.static_keyword;
 
 public class TestUser {
     public static void main(String[] args) {

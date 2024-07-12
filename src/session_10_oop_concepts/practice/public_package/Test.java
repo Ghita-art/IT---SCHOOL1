@@ -1,6 +1,6 @@
-package session_10_oop_concepts.public_package;
+package session_10_oop_concepts.practice.public_package;
 
-import session_10_oop_concepts.sensitive_logic_package.Animal;
+import session_10_oop_concepts.practice.sensitive_logic_package.Animal;
 
 public class Test {
     public static void main(String[] args) {

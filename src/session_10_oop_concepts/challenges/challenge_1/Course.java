@@ -1,4 +1,4 @@
-package session_10_oop_concepts.challenge_1;
+package session_10_oop_concepts.challenges.challenge_1;
 
 public class Course {
 
