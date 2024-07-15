@@ -3,6 +3,7 @@ package session_10_oop_concepts.challenges.challenge_1;
 import java.time.LocalTime;
 
 public class Schedule {
+
     private Weekday day;
     private LocalTime startCourse;
     private LocalTime endCourse;

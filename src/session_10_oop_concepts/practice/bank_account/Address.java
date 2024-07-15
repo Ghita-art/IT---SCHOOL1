@@ -2,49 +2,38 @@ package session_10_oop_concepts.practice.bank_account;
 
 public class Address {
     private String street;
-    private int number;
-    private String postalCode;
+    private String number;
+    private String block;
+    private String flatNo;
     private String city;
-    private String country;
+    private String county;
+    private String postalCode;
 
-    public String getStreet() {
-        return street;
-    }
+    public Address(String street, String number, String block, String flatNo, String city, String county, String postalCode) {
 
-    public void setStreet(String street) {
         this.street = street;
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-    public void setNumber(int number) {
         this.number = number;
-    }
-
-    public String getPostalCode() {
-        return postalCode;
-    }
-
-    public void setPostalCode(String postalCode) {
+        this.block = block;
+        this.flatNo = flatNo;
+        this.city = city;
+        this.county = county;
         this.postalCode = postalCode;
     }
 
-    public String getCity() {
-        return city;
+    public Address(String street, String number, String block, int i, String vaslui, String vaslui1, String number1) {
     }
 
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
+    @Override
+    public String toString() {
+        return "Address{" +
+                "street='" + street + '\'' +
+                ", number='" + number + '\'' +
+                ", block='" + block + '\'' +
+                ", flatNo=" + flatNo +
+                ", city='" + city + '\'' +
+                ", county='" + county + '\'' +
+                ", postalCode='" + postalCode + '\'' +
+                '}';
     }
 }
 
