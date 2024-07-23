@@ -1,4 +1,4 @@
-package session_15_oop_recap.practice.inheritance;
+package session_15_oop_recap.practice.exercise1_inheritance;
 
 //package session_15_oop_recap.practice.change_runtime.Exercise1Inheritance;
 //
