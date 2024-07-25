@@ -20,7 +20,7 @@ class Home {
         this.devices.add(device);
     }
 
-    public void createScene(String sceneName, List<String> deviceActions) {
+    public void createAction(String sceneName, List<String> deviceActions) {
         System.out.println("Scene " + sceneName + " created with actions: " + deviceActions);
     }
 
