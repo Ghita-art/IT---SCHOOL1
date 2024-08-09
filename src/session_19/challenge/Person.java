@@ -1,13 +1,16 @@
-package kata.session_1;
+package session_19.challenge;
 
 public class Person {
 
-    //name, age, and address
-    private String firstName;
-    private int age;
-    private String lastName;
 
-    public Person(String firstName,String lastName, int age) {
+    private String firstName;
+    private String lastName;
+    private int age;
+
+    public Person(String lastName, String firstName, int age) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.age = age;
     }
 
     public String getFirstName() {
@@ -18,30 +21,29 @@ public class Person {
         this.firstName = firstName;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
     public int getAge() {
         return age;
     }
 
     public void setAge(int age) {
         this.age = age;
-    }
 
-    public String getLastName() {
-        return lastName;
     }
 
     @Override
     public String toString() {
         return "Person{" +
                 "firstName='" + firstName + '\'' +
-                ", age=" + age +
                 ", lastName='" + lastName + '\'' +
+                ", age=" + age +
                 '}';
     }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-
-    }
 }
-
